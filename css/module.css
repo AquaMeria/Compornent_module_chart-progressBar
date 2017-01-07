@@ -1,0 +1,46 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.見出し
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+  01.プログレスバー
+--------------------*/
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.progressBar {
+    background-color: #fff;
+    clear: both;
+    color: #666;
+    margin-bottom:3rem;
+    overflow: hidden;
+    padding: 3rem;
+}
+.progressBar__subdata__list{
+    padding:0 0 7rem;
+}
+.progressBar__subdata__list:last-child{
+    padding:0;
+}
+.progressBar__subdata__list__label{
+    font-size:2.5rem;
+    line-height:2.5rem;
+}
+@media screen and (max-width: 768px) {
+    .progressBar__subdata__list__label{
+        line-height:4rem;
+    }
+}
+.progress-bar-orgasm{
+    background-color: #f04ebe;
+}
+.progress-bar-orgasm:last-child.progress-bar:before{
+    background-color: rgb(252, 192, 233);
+}
